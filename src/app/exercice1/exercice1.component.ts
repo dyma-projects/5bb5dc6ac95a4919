@@ -16,7 +16,7 @@ export class Exercice1Component implements OnInit {
 
   ngOnInit(): void {}
 
-  public changeTitle() {
+  public changeTitle(): void {
     this.title = "Le titre vient de changer !";
     this.classTitle = "change";
   }
