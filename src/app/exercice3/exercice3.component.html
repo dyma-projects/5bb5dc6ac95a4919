@@ -1,2 +1,5 @@
-<p>p1</p>
-<p>p2</p>
+<p *ngIf="statut">p1</p>
+<p *ngIf="!statut">p2</p>
+<button type="button" (click)="switchStatut()">
+  Switcher vers {{ titleButton }}
+</button>
